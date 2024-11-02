@@ -1,0 +1,111 @@
+.navbar > li > a {
+    display: block;
+}
+
+.navbar > li > a:hover {
+    color: darkgray;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(236, 238, 246);
+    min-width: 100px;
+    text-align: center;
+    border-radius: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 1;
+}
+
+.dropdown li {
+    float: none;
+}
+.dropdown li:hover {
+    font-size: large;
+}
+
+.navbar > li:hover .dropdown {
+    display: block;
+    color: black;
+}
+
+.profile > li > a:hover {
+    color: darkgray;
+}
+.profile > li:hover .dropdown {
+    display: block;
+    color: black;
+}
+
+.categories .dropdown li:hover {
+    font-size: x-small;
+}
+.categories > li:hover .dropdown {
+    display: block;
+    color: rgb(64, 50, 78);
+    font-weight: bold;
+    font-size: smaller;
+    
+}
+
+.summer > li:hover .dropdown-summer {
+    display: block;
+    color: rgb(80, 80, 111);
+}
+.dropdown-summer li {
+    float: none;
+}
+.dropdown-summer{
+    position: absolute;
+   top: 0%;
+   left: 101%; 
+   background-color: rgb(216, 219, 233);
+    min-width: 100px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 1;
+}
+.dropdown-summer li {
+    font-size:x-small ;
+}
+.dropdown-summer li:hover {
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(139, 139, 193);
+}
+.summer > li:hover .dropdown-winter {
+    display: block;
+    color: rgb(80, 80, 111);
+}
+.dropdown-winter li {
+    float: none;
+}
+.dropdown-winter{
+    position: absolute;
+   top: 26%;
+   left: 101%; 
+   background-color: rgb(216, 219, 233);
+    min-width: 100px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 1;
+}
+.dropdown-winter li {
+    font-size:x-small ;
+}
+.dropdown-winter li:hover {
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(139, 139, 193);
+}
+
+
+
+.banner-img {
+    margin-top: -20px;
+    margin-left: 60px;
+    
+}
+
